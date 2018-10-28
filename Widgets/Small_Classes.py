@@ -42,17 +42,18 @@ class Timer:
 
 class Quotes:
     def __init__(self):
+        import json
+
+        with open('SMART-MiRRoR\Random\quotes.json') as f:
+            self.quote_data = json.load(f)
+
         self.quote = ""
         self.author = ""
 
     def new_quote(self):
-        import json
         import random
 
-        with open('SMART-MiRRoR\Random\quotes.json') as f:
-            data = json.load(f)
-
-        random_quote = random.choice(data)
+        random_quote = random.choice(self.quote_data)
         self.quote = random_quote['quoteText']
         self.author = random_quote['quoteAuthor']
 
