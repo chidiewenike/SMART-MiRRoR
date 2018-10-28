@@ -70,7 +70,7 @@ class Timer:
         self.hours = str(int(self.timer) // 60)
         self.minutes = str(int(self.timer) % 60)
     
-    def calc_timer(self):
+    def Calc_Timer(self):
         self.curr_time = time.time()
         self.timer = str(int(self.curr_time) - int(self.start_time))
 
@@ -86,7 +86,7 @@ class Quotes:
         self.quote = ""
         self.author = ""
 
-    def new_quote(self):
+    def New_Quote(self):
         import random
 
         random_quote = random.choice(self.quote_data)
@@ -110,7 +110,7 @@ class News:
 
 
 
-    def fetch_news(self):
+    def Fetch_News(self):
         from newsapi import NewsApiClient
 
         newsapi = NewsApiClient(api_key='948b7b39ae1c456cbff5cff29cb3b5b6')
@@ -157,3 +157,6 @@ class Person_Recognizer:
     def __init__(self):
         pass
 
+class Music:
+    def __init__(self):
+        pass
