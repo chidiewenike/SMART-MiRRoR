@@ -1,0 +1,56 @@
+{"Teams": {
+    "Team": "Everton",
+    "Fixtures": [
+                                {
+                                    "Date" :  "Tue 02/26",
+                                    "Team" : "Cardiff",                                        
+                                    "Home": "Away",
+                                    "Time": "11:45",
+                                    "Passed": "False" 
+                                },
+                                {
+                                    "Date" :  "Sun 03/03",
+                                    "Team" : "Liverpool",                                        
+                                    "Home": "Home",
+                                    "Time": "08:15",
+                                    "Passed": "False" 
+                                },
+                                {
+                                    "Date" : "Sat 03/09",
+                                    "Team" : "Newcastle",                                        
+                                    "Home": "Away",
+                                    "Time": "07:00",
+                                    "Passed": "False" 
+                                },
+                                {
+                                    "Date" :  "Sun 03/17",
+                                    "Team" : "Chelsea",                                        
+                                    "Home": "Home",
+                                    "Time": "09:30",
+                                    "Passed": "False" 
+                                },
+                                {
+                                    "Date" :  "Sat 03/30",
+                                    "Team" : "West Ham",                                        
+                                    "Home": "Away",
+                                    "Time": "10:30",
+                                    "Passed": "False" 
+                                },
+                                {
+                                    "Date" :  "Sat 04/06",
+                                    "Team" : "Arsenal",                                        
+                                    "Home": "Home",
+                                    "Time": "07:00",
+                                    "Passed": "False" 
+                                },
+                                {
+                                    "Date" :  "Sat 04/13",
+                                    "Team" : "Fulham",                                        
+                                    "Home": "Away",
+                                    "Time": "07:00",
+                                    "Passed": "False" 
+                                },
+                            ]   
+                }
+    }  
+}
